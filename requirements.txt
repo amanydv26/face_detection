@@ -1,0 +1,8 @@
+flask
+numpy
+werkzeug
+pillow
+opencv-python-headless
+flask-cors
+python-dotenv
+gunicorn
