@@ -7,8 +7,8 @@ from werkzeug.utils import secure_filename
 app = Flask(__name__)
 
 # Configuration
-UPLOAD_FOLDER = './uploads'
-MODEL_PATH = './model/deepfake_detector.h5'
+UPLOAD_FOLDER = './backend/uploads'
+MODEL_PATH = './backend/model/deepfake_detector.h5'
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
 # Load the model
